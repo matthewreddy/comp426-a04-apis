@@ -1,1 +1,7 @@
-# comp426-a04-apis
+# COMP 426 A04: Utilizing Third-Party APIs
+
+This assignment utilizes two APIs from TextCortex. You can read the documentation [here](https://docs.textcortex.com/api). Specifically, I made use of the [social media post API](https://docs.textcortex.com/api/paths/texts-social-media-posts/post) and the [ad API](https://docs.textcortex.com/api/paths/texts-ads/post). My API keys have been omitted; you can make an account on TextCortex and then generate your own API key for free to make the application work.
+
+The application uses both of these APIs to generate content based on user input. The user can choose to create a social media post to either Twitter (now known as "X," I suppose) or LinkedIn that includes and talks about one or more keywords. They can also choose to generate an advertisement for a real or fictional product given the product's name, a brief description of the product, and one or more keywords to include in the ad.
+
+The application is pretty barebones; there isn't much to it other than three webpages (a home page, a page for generating posts, and a page for generating ads) and the use of the APIs. I opted not to create any CSS files for this assignment since it wasn't mentioned to be required.
